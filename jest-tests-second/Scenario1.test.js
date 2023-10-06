@@ -2,7 +2,7 @@ const axios = require('axios')
 
 const url = 'https://api.carbonintensity.org.uk/regional'
 
-test.skip('Scenario 1', async () => {
+test('Scenario 1', async () => {
     let regions
     // 1
     const response = await axios.get(url)
